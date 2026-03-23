@@ -280,7 +280,7 @@ export default function App() {
                           //         que el espacio disponible lo recorre a la izquierda
                           const estimatedTextWidth = cause.length * 6.4;
                           const availableSpace = xC - lineX1;
-                          const topTextX = lineX1 - Math.max(0, estimatedTextWidth - availableSpace + 8);
+                          const topTextX = lineX1 - Math.max(0, estimatedTextWidth - availableSpace + 18);
                           const textX = isTop ? topTextX : xC;
                           const anchor = isTop ? "start" : "end";
 
